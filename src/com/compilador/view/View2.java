@@ -21,12 +21,12 @@ public class View2 extends JFrame {
     String [] colunas = {"Token", "Lexema"};
 
     public View2() {
-        super("Símbolos");
+        super("Símbologia");
     }
     
     public void criaJanela() throws IOException{
     	
-        String arquivo = "src/com/compilador/grammar/GrammarProposta.txt";
+        String arquivo = "src/com/compilador/grammar/Grammar.txt";
 		
  		Sintatico analisadorSintatico;
     	
