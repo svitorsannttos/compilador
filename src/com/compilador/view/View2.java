@@ -26,7 +26,7 @@ public class View2 extends JFrame {
     
     public void criaJanela() throws IOException{
     	
-        String arquivo = "src/com/compilador/grammar/Grammar.txt";
+        String arquivo = "src/com/compilador/grammar/GrammarProposta.txt";
 		
  		Sintatico analisadorSintatico;
     	

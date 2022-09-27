@@ -21,7 +21,7 @@ public class Error {
 	@Override
 	public String toString()
 	{
-		return mensagem + " do tipo " + tipoErro + ", no lexema= " + lexema + ", na posição: (" + linha + ", " + coluna + ")";
+		return mensagem + tipoErro + lexema + ", EM: (" + linha + ", " + coluna + ")";
 	}
 
 	public ErroEnum getTipoErro() { 

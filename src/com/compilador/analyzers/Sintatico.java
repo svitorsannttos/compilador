@@ -20,7 +20,7 @@ public class Sintatico {
 	
 	public Object[][] views() {
 		
-		int value = 100;
+		int value = 1000;
 		
 		Object [][] obj = new Object[value][2];
 		int x = 0;

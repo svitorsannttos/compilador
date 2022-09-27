@@ -26,7 +26,7 @@ public class Lexico {
 
 		if (c != '"') {
 			ultimoCaractereReiniciar();
-			Errors.getInstancia().erroCompilador(ErroEnum.LEXICO, lexema.toString(), "Erro no Literal",
+			Errors.getInstancia().erroCompilador(ErroEnum.LEXICO, lexema.toString(), "Erro",
 					tokenLinha, tokenColuna);
 			return null;
 		}
@@ -274,7 +274,7 @@ public class Lexico {
 					}
 
 					Errors.getInstancia().erroCompilador(ErroEnum.LEXICO, lexema.toString(),
-							"Erro Lexico, palavra não existe: ", tokenLinha, tokenColuna);
+							"PALAVRA INEXISTENTE: ", tokenLinha, tokenColuna);
 				}
 			}
 

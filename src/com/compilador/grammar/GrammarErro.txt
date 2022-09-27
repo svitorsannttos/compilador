@@ -1,0 +1,10 @@
+PROGRAM helloword;	
+	BEGIN
+		VAR frase := "Hello Word!";
+		VAR nome "Vitor"
+	
+		#comentario#
+		WRITE ("frase', nome);
+	END;
+
+END.
